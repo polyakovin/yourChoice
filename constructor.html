@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+	<base href="yourChoice">
+	<meta name="description" content="Дизайн двери по Вашему вкусу!">
+	<meta name="keywords" content="смоленск, дизайн, дверь, входная, разработать">
+	<!--[if  lte IE 8]>
+		<style type="text/css">
+			#navi div
+			{
+				filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#35d875', endColorstr='#039539');
+				-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#35d875', endColorstr='#039539')";
+			}
+		</style>
+	<![endif]-->
+
+	<!--[if  lt IE 8]>
+		<style type="text/css">
+			#navi,#menu{margin:0;}
+		</style>
+	<![endif]-->
+	<link href="css/main_style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/jquery.slider.tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/page.constructor.css">
+	<title>Стальные Конструкции «Ваш Выбор» – Конструктор</title>
+</head>
+<body>
+<div id="header">
+	<a id="index" href="index.html"></a>
+</div>
+<div id="subheader">
+	<div id="menu">
+		<ul id="topnav">
+			<li>
+				<a href="#" class="menu">Menu</a>
+				<div class="sub" style="opacity: 0; display: none; width: 480px;">
+					<ul>
+						<li>
+							<h2>
+								<a href="gallery.html">
+									Каталог<br>
+									<img src="img/gallery.png" alt="Каталог">
+								</a>
+							</h2>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h2>
+								<a href="constructor.html">
+									Конструктор<br>
+									<img src="img/constructor.png" alt="Калькулятор">
+								</a>
+							</h2>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="index.html">Главная</a>
+						</li>
+						<li>
+							<a href="projects.html">Наши проекты</a>
+						</li>
+						<li>
+							<a href="sale.html" id="hsale">Распродажа!</a>
+						</li>
+						<li>
+							<a href="order.html">Оформить заказ</a>
+						</li>
+						<li>
+							<a href="contacts.html">Контакты</a>
+						</li>
+						<li>
+							<a href="faq.html">F.A.Q.</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div id="main">
+			<h1 id="shuffle">Сделайте дверь своими руками!</h1>
+			<p></p>
+			<form id="constructor" action="#" method="post">
+				<div id="changeprice1"></div>				<div id="choose_type">					<div id="type_arrows"></div>
+
+							<label class="type_unit" id="type_1" title="">
+								<input class="type_radio" type="radio" name="type" value="1" price="6100">
+							</label>
+
+							<label class="type_unit" id="type_2" title="">
+								<input class="type_radio" type="radio" name="type" value="2" price="11500">
+							</label>
+
+							<label class="type_unit" id="type_3" title="">
+								<input class="type_radio" type="radio" name="type" value="3" price="12500">
+							</label>
+
+							<label class="type_unit" id="type_4" title="">
+								<input class="type_radio" type="radio" name="type" value="4" price="16500">
+							</label>
+											<div class="clear"></div>
+				</div>
+
+				<div id="other_options" style="display: block;">
+				<div id="change_type">Сменить тип конструкции</div>
+					<div id="result">						<div id="img">
+							<div id="pokr" style="background-image: url(lego/big/otd/por_blue.jpg);"></div>							<div id="frez"></div>							<div id="nali"></div>							<div id="nalil"></div>							<div id="nalifrez"></div>							<div id="thrd"></div>							<div id="nalinone"></div>							<div id="eye" style="display: block;"></div>							<div id="window"></div>							<div id="nakll"></div>							<div id="handle"></div>							<div id="inner_side" style="display: none;">								<div id="inner_home"></div>								<div id="inner_frez"></div>								<div id="inner_thrd"></div>								<div id="inner_eye" style="display: block;"></div>								<div id="inner_handle"></div>								<div id="inner_keyhole"></div>							</div>
+							<div id="butt"></div>						</div>
+						<div id="order">
+							<div id="summ">
+								<div id="price_sign">Стоимость</div>
+								<strong><span></span><i> рублей</i></strong>
+							</div>							<input name="price" type="hidden" value="12500">							<input type="submit" id="order_button" value="Заказать">
+						</div>
+					</div>
+
+					<div id="bricks">						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Придаёт законченный эстетичный внешний вид изделию."></div>
+								<h5>Наличник</h5>
+								<select id="lego_nalich" name="nalich">
+									<option value="0">Отсутствует</option>
+									<option id="decor_nali" value="1000" selected="selected">Декоративный</option>
+									<option id="frez_nali" value="2500">Фрезерованный</option>
+								</select>
+							</div>
+							<input name="nalich_POST" type="hidden" value="Декоративный">
+							<div class="ChooseIm" id="nalichs"></div>						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Декоративное покрытие, наносимое на внешнюю сторону полотна двери. Придаёт изделию оригинальный внешний вид."></div>
+								<h5>Внешняя отделка</h5>
+								<select id="lego_out_otd">
+									<option value="0">Порошковое напыление</option>
+									<option value="-500">Молотковая эмаль</option>
+									<!--<option value="-1300">Винилискожа</option>-->
+									<option value="2000">ПВХ на МДФ(10мм)</option>
+									<option value="3000">ПВХ на МДФ(16мм)</option>
+									<option value="2500">Пластик на МДФ(10мм)</option>
+									<option value="2500">Пластик на МДФ(16мм)</option>
+									<option value="3500">Шпон на МДФ(10мм)</option>
+									<option value="4500">Шпон на МДФ(16мм)</option>
+									<!--<option value="25000">Массив</option>-->
+								</select>
+							</div>
+							<div class="ChooseIm">								<div class="thebutton" id="out_otd_button"></div>
+								<div class="thebutton" id="out_otd_por_button" style="background-image: url(lego/medium/otd/por_blue.jpg);"></div>
+								<div class="thebutton" id="out_otd_mol_button"></div>
+								<div class="thebutton" id="out_otd_shpon_button"></div>
+								<div class="thebutton" id="out_otd_plastic_button"></div>
+							</div>
+							<input id="out_otd_POST" name="out_otd_POST" type="hidden" value="Порошковое напыление">
+							<input id="out_otd_model" name="out_otd_model" type="hidden" value="por_blue">						</div>
+						<hr class="constrhr">
+
+						<div id="out_frez_show">							<div class="selectionblock">
+								<div class="ChooseClass">
+									<div class="tip" title="Декоративный рисунок, выфрезированный на поверхности МДФ-накладок."></div>
+									<h5>Внешняя фрезеровка</h5>
+									<select id="out_frez" name="out_frez">
+										<option value="0">Отсутствует</option>
+										<option value="1" selected="selected">Присутствует</option>
+									</select>
+								</div>
+								<div class="ChooseIm">
+									<div class="thebutton" id="out_frez_button"></div>
+								</div>
+								<input id="out_otd_col_model" name="out_otd_col_model" type="hidden" value="14-2">
+							</div>
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Декоративное покрытие, наносимое на внутреннюю сторону полотна двери."></div>
+								<h5>Внутренняя отделка</h5>
+								<select id="lego_in_otd" name="in_otd">
+									<option value="0">ХДФ покрытие</option>
+									<option id="inner_por" value="2500" disabled="disabled">Порошковое напыление</option>
+									<option value="2000">Молотковая эмаль</option>
+									<!--<option value="-200">Винилискожа</option>-->
+									<option value="2000">ПВХ на МДФ(10мм)</option>
+									<option value="3000">ПВХ на МДФ(16мм)</option>
+									<option value="2500">Пластик на МДФ(10мм)</option>
+									<option value="2500">Пластик на МДФ(16мм)</option>
+									<option value="3500">Шпон на МДФ(10мм)</option>
+									<option value="4500">Шпон на МДФ(16мм)</option>
+									<!--<option value="25000">Массив</option>-->
+								</select>
+							</div>
+							<div class="ChooseIm">
+								<div class="thebutton" id="in_otd_button"></div>
+								<div class="thebutton" id="in_otd_hdf_button"></div>
+								<div class="thebutton" id="in_otd_por_button"></div>
+								<div class="thebutton" id="in_otd_mol_button"></div>
+								<div class="thebutton" id="in_otd_shpon_button"></div>
+								<div class="thebutton" id="in_otd_plastic_button"></div>
+							</div>
+							<input id="in_otd_POST" name="in_otd_POST" type="hidden" value="ХДФ покрытие">
+							<input id="in_otd_model" name="in_otd_model" type="hidden" value="hdf_buk">
+						</div>
+						<hr class="constrhr">
+
+						<div id="in_frez_show">							<div class="selectionblock">
+								<div class="ChooseClass">
+									<div class="tip" title="Декоративный рисунок, выфрезированный на поверхности МДФ-накладок."></div>
+									<h5>Внутренняя фрезеровка</h5>
+									<select id="in_frez" name="in_frez">
+										<option value="0">Отсутствует</option>
+										<option value="1" selected="selected">Присутствует</option>
+									</select>
+								</div>
+								<div class="ChooseIm">
+									<div class="thebutton" id="in_frez_button"></div>
+								</div>
+								<input id="in_otd_col_model" name="in_otd_col_model" type="hidden" value="classica874">
+							</div>
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Обычно используются хромированные, позолоченные, с эффектом старой меди или бронзы."></div>
+								<h5>Ручки</h5>
+								<select id="lego_handles" name="handles">
+									<option value="0">Декоративные</option> 									<option value="500">Офисные</option>   									<option value="4000">Парадные</option>								</select>
+							</div>
+							<div class="ChooseIm"><div class="thebutton" id="handles_button"></div></div>
+							<input id="handles_model" name="handles_model" type="hidden" value="cannello">
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Основной элемент конструкции, который обеспечивает безопасность Вашему дому."></div>
+								<h5>Верхний замок</h5>
+								<select id="lego_lock1" name="lock1">
+									<option value="0">Не нужен</option>
+									<optgroup label="Отечественные">
+										<option value="0">Гардиан</option>
+										<option value="3000">Крит (противопожарный)</option>
+										<option value="500">Эльбор</option>
+									</optgroup>
+									<optgroup label="Импортные">
+										<option value="2580">CISA</option>
+										<option value="1500">Kale</option>
+										<option value="2800">Mottura</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="ChooseIm">
+								<div class="thebutton" id="locks_button"></div>
+							</div>
+							<input id="locks_model" name="locks_model" type="hidden" value="gardian3011">
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Дополнительная защита никому не повредит!"></div>
+								<h5>Нижний замок</h5>
+								<select id="lego_lock2" name="lock2">
+									<option value="0">Не нужен</option>
+									<optgroup label="Отечественные">
+										<option value="0">Гардиан</option>
+										<option value="3000">Крит (противопожарный)</option>
+										<option value="500">Эльбор</option>
+									</optgroup>
+									<optgroup label="Импортные">
+										<option value="2580">CISA</option>
+										<option value="1500">Kale</option>
+										<option value="2800">Mottura</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="ChooseIm">
+								<div class="thebutton" id="locks2_button"></div>
+							</div>
+							<input id="locks2_model" name="locks2_model" type="hidden" value="elbor">
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Служит для открывания цилиндровых замков. Не является основным средством защиты! В дополнение необходимо использовать замки сувальдного типа."></div>
+								<h5>Личинка</h5>
+								<select id="lego_lich" name="lich">
+									<option value="0">Перфорированная с вертушкой</option>
+									<option value="1600">CISA</option>
+									<option value="1000">KALE</option>
+									<option value="3500">MOTTURA</option>
+								</select>
+							</div>
+							<div class="ChooseIm">
+								<div class="thebutton" id="lich_button"></div>
+							</div>
+							<input id="lich_model" name="lich_model" type="hidden" value="apeks">
+						</div>
+						<hr class="constrhr">
+
+						<div class="selectionblock">							<div class="ChooseClass">
+								<div class="tip" title="Защищают цилиндровый механизм замка от выбивания или высверливания и придает изделию законченный эстетический внешний вид."></div>
+								<h5>Броненакладки</h5>
+								<select id="lego_nakl" name="nakl">
+									<option value="0">Отсутсвует</option>
+									<option value="500">Накладная</option>
+									<option value="2000">Врезная</option>
+								</select>
+							</div>
+							<div class="ChooseIm">
+								<div class="thebutton" id="nakl_button"></div>
+							</div>
+							<input id="nakl_model" name="nakl_model" type="hidden" value="bulava">
+						</div>
+					</div>
+					<div class="clear"></div>
+
+					<h5 id="addopt">Дополнительные опции</h5>
+					<label class="dops" id="lego_zerkalo" title="Зеркало" style="background-image: url(lego/basic/zerkalo_bw.png);">
+						<input type="checkbox" name="zerkalo" value="2000" disabled="disabled">
+					</label>
+					<label class="dops" id="lego_hole" title="Декоративное окно" style="background-image: url(lego/basic/hole_bw.png);">
+						<input type="checkbox" name="hole" value="3500">
+					</label>
+					<label class="dops" id="lego_dovod" title="Доводчик" style="background-image: url(lego/basic/dovod.png);">
+						<input type="checkbox" name="dovod" value="1500">
+					</label>
+					<label class="dops" id="lego_polim" title="Полимерное защитное покрытие под порошок" style="background-image: url(lego/basic/polim_bw.png);">
+						<input type="checkbox" name="polim" value="700">
+					</label>
+					<label class="dops" id="lego_glaz" title="Глазок" style="background-image: url(lego/basic/glaz.png);">
+						<input type="checkbox" name="glaz" value="0" checked="checked">
+					</label>
+					<label class="dops" id="lego_zadv" title="Задвижка" style="background-image: url(lego/basic/zadv_bw.png);">
+						<input type="checkbox" name="zadv" value="500">
+					</label>
+					<label class="dops" id="lego_warm" title="Утепление коробки" style="background-image: url(lego/basic/warm_bw.png);">
+						<input type="checkbox" name="warm" value="300">
+					</label>
+					<label class="dops" id="lego_demont" title="Демонтаж" style="background-image: url(lego/basic/demont_bw.png);">
+						<input type="checkbox" name="demont" value="250">
+					</label>
+					<label class="dops" id="lego_service" title="Доставка и установка" style="background-image: url(lego/basic/service_bw.png);">
+						<input type="checkbox" name="service" value="1000">
+					</label>
+					<div class="clear"></div>
+
+					<div id="hide_deliv">						<label>
+							<input type="checkbox" id="checkdel" name="city" value="city">
+							Доставка за город<span class="hide_fardeliv">. Дистанция: <span id="amount">50км</span></span>
+						</label>
+						<input type="hidden" id="delivery" name="country" value="50">
+						<div class="hide_fardeliv ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-range" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 21.0526%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="https://www.web.archive.org/web/20160327092415/http://%D0%B2%D0%B0%D1%88%D0%B2%D1%8B%D0%B1%D0%BE%D1%8067.%D1%80%D1%84/constructor.php#" style="left: 21.0526%;"></a></div>
+					</div>
+
+					<div id="another_order_button">
+						<input type="submit" id="orderforming" value="Заказать">
+					</div>
+
+					<p id="lego_subtext">
+						<i><b>Примечание.</b> Толщина стального листа двери — 2мм. При желании можно сделать 1мм или 1,5мм, чтобы облегчить или удешевить конструкцию.</i>
+					</p>
+					<p>
+						<b>Внимание!</b> Калькулятор находится в стадии тестирования и показывает лишь примерную стоимость. Полученный вид вашей конструкции несёт <b>ознакомительный</b> характер и даёт лишь общее понятие о будущем изделии! Для более полного представления о внешнем виде, ценах, технических характеристиках и деталях конструкции необходимо посетить <a href="https://www.web.archive.org/web/20160327092415/http://%D0%B2%D0%B0%D1%88%D0%B2%D1%8B%D0%B1%D0%BE%D1%8067.%D1%80%D1%84/contacts.php">выставку</a>, либо позвонить по телефону <b>40–19–28</b> и получить консультацию специалиста!
+					</p>
+				</div>
+			</form><br>
+
+			<div id="select_window" style="display: none;">				<div id="shadow"></div>
+				<div id="sel_gallery">
+					<div id="cross"></div>
+
+					<div id="out_otd_window" style="">
+						<h2>Выберите ПВХ для внешней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_10.jpg" title="10" model="mdf_pvh_10"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_12.jpg" title="12" model="mdf_pvh_12"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_13.jpg" title="13" model="mdf_pvh_13"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_14.jpg" title="14" model="mdf_pvh_14"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_15.jpg" title="15" model="mdf_pvh_15"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_16.jpg" title="16" model="mdf_pvh_16"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_17.jpg" title="17" model="mdf_pvh_17"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_18.jpg" title="18" model="mdf_pvh_18"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_19.jpg" title="19 (глянец)" model="mdf_pvh_19"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_2.jpg" title="2" model="mdf_pvh_2"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_20.jpg" title="20" model="mdf_pvh_20"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_21.jpg" title="21" model="mdf_pvh_21"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_22.jpg" title="22" model="mdf_pvh_22"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_23.jpg" title="23" model="mdf_pvh_23"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_24.jpg" title="24" model="mdf_pvh_24"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_25.jpg" title="25" model="mdf_pvh_25"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_26.jpg" title="26" model="mdf_pvh_26"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_27.jpg" title="27" model="mdf_pvh_27"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_28.jpg" title="28" model="mdf_pvh_28"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_29.jpg" title="29" model="mdf_pvh_29"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_3.jpg" title="3" model="mdf_pvh_3"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_30.jpg" title="30" model="mdf_pvh_30"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_31.jpg" title="31" model="mdf_pvh_31"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_32.jpg" title="32" model="mdf_pvh_32"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_33.jpg" title="33" model="mdf_pvh_33"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_34.jpg" title="34" model="mdf_pvh_34"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_35.jpg" title="35" model="mdf_pvh_35"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_36.jpg" title="36" model="mdf_pvh_36"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_37.jpg" title="37" model="mdf_pvh_37"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_38.jpg" title="38 (глянец)" model="mdf_pvh_38"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_39.jpg" title="39" model="mdf_pvh_39"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_4.jpg" title="4" model="mdf_pvh_4"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_40.jpg" title="40" model="mdf_pvh_40"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_41.jpg" title="41" model="mdf_pvh_41"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_42.jpg" title="42" model="mdf_pvh_42"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_43.jpg" title="43" model="mdf_pvh_43"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_5.jpg" title="5" model="mdf_pvh_5"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_7.jpg" title="7" model="mdf_pvh_7"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_9.jpg" title="9" model="mdf_pvh_9"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_venge.jpg" title="Венге" model="mdf_pvh_venge"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_venge_2.jpg" title="Венге 2" model="mdf_pvh_venge_2"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_cedar.jpg" title="Кедр (глянец)" model="mdf_pvh_cedar"><img class="gallery_element gallery_out_otd" src="lego/small/otd/mdf_pvh_root.jpg" title="Корень (глянец)" model="mdf_pvh_root">					</div>
+
+					<div id="out_otd_por_window" style="display: none;">
+						<h2>Выберите цвет порошкового напыления для внешней отделки:</h2>
+						<img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_bronze.jpg" title="Бронза" model="por_bronze"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_green.jpg" title="Зелёный" model="por_green"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_croc_brown.jpg" title="Крокодил Коричневый" model="por_croc_brown"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_croc_black.jpg" title="Крокодил Чёрный" model="por_croc_black"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_cuprum.jpg" title="Медь" model="por_cuprum"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_silver.jpg" title="Серебро" model="por_silver"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_blue.jpg" title="Синий" model="por_blue"><img class="gallery_element gallery_out_otd_por" src="lego/small/otd/por_violet.jpg" title="Фиолетовый" model="por_violet">					</div>
+
+					<div id="out_otd_mol_window" style="">
+						<h2>Выберите цвет молотковой эмали для внешней отделки:</h2>
+						<img class="gallery_element gallery_out_otd_mol" src="lego/small/otd/mol_grey.jpg" title="Молотковая Серая" model="mol_grey"><img class="gallery_element gallery_out_otd_mol" src="lego/small/otd/mol_shagr_brown.jpg" title="Шагрень Коричневая" model="mol_shagr_brown"><img class="gallery_element gallery_out_otd_mol" src="lego/small/otd/mol_shagr_black.jpg" title="Шагрень Чёрная" model="mol_shagr_black">					</div>
+
+					<div id="out_otd_shpon_window" style="">
+						<h2>Выберите шпон для внешней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_a218.jpg" title="А 218" model="mdf_shpon_a218"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_a-n-t.jpg" title="А Н Т" model="mdf_shpon_a-n-t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_bukbav.jpg" title="БУК.БАВ." model="mdf_shpon_bukbav"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_bukfl.jpg" title="БУК.Ф.Л." model="mdf_shpon_bukfl"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_vengefl.jpg" title="ВЕНГЕ.Ф.Л." model="mdf_shpon_vengefl"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d211n.jpg" title="Д 211 Н" model="mdf_shpon_d211n"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d211c.jpg" title="Д 211 С" model="mdf_shpon_d211c"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d211cc.jpg" title="Д 211 СС" model="mdf_shpon_d211cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d211t.jpg" title="Д 211 Т" model="mdf_shpon_d211t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d235n.jpg" title="Д 235 Н" model="mdf_shpon_d235n"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d235c.jpg" title="Д 235 С" model="mdf_shpon_d235c"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d235cc.jpg" title="Д 235 СС" model="mdf_shpon_d235cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d235t.jpg" title="Д 235 Т" model="mdf_shpon_d235t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d236n.jpg" title="Д 236 Н" model="mdf_shpon_d236n"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d236c.jpg" title="Д 236 С" model="mdf_shpon_d236c"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d236cc.jpg" title="Д 236 СС" model="mdf_shpon_d236cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d236t.jpg" title="Д 236 Т" model="mdf_shpon_d236t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d-b.jpg" title="Д Б" model="mdf_shpon_d-b"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d-e-f-l.jpg" title="Д Е Ф Л" model="mdf_shpon_d-e-f-l"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d-z-p.jpg" title="Д З П" model="mdf_shpon_d-z-p"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_d-n-t.jpg" title="Д Н Т" model="mdf_shpon_d-n-t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_dvenge.jpg" title="Д.ВЕНГЕ." model="mdf_shpon_dvenge"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_oakfl.jpg" title="ДУБ.Ф.Л." model="mdf_shpon_oakfl"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_zebrano.jpg" title="ЗЕБРАНО" model="mdf_shpon_zebrano"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k211n.jpg" title="К 211 Н" model="mdf_shpon_k211n"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k211c.jpg" title="К 211 С" model="mdf_shpon_k211c"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k211cc.jpg" title="К 211 СС" model="mdf_shpon_k211cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k235cc.jpg" title="К 235 СС" model="mdf_shpon_k235cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k236c.jpg" title="К 236 С" model="mdf_shpon_k236c"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k236cc.jpg" title="К 236 СС" model="mdf_shpon_k236cc"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k236t.jpg" title="К 236 Т" model="mdf_shpon_k236t"><img class="gallery_element gallery_out_otd_shpon" src="lego/small/otd/mdf_shpon_k-ch.jpg" title="К Ч" model="mdf_shpon_k-ch">					</div>
+
+					<div id="out_otd_plastic_window" style="">
+						<h2>Выберите пластик для внешней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_3240.jpg" title="3240" model="mdf_plastic_3240"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_3801.jpg" title="3801" model="mdf_plastic_3801"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_3842.jpg" title="3842" model="mdf_plastic_3842"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_3844.jpg" title="3844" model="mdf_plastic_3844"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_524.jpg" title="524" model="mdf_plastic_524"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_534.jpg" title="534" model="mdf_plastic_534"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_568.jpg" title="568" model="mdf_plastic_568"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_727.jpg" title="727" model="mdf_plastic_727"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_806.jpg" title="806" model="mdf_plastic_806"><img class="gallery_element gallery_out_otd_plastic" src="lego/small/otd/mdf_plastic_836.jpg" title="836" model="mdf_plastic_836">					</div>
+
+					<div id="out_frez_window" style="">
+						<h2>Выберите рисунок фрезеровки внешней панели:</h2>
+						<img class="gallery_element gallery_out_otd_col" src="lego/small/frez/14-2.png" title="14-2" model="14-2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/14-4.png" title="14-4" model="14-4"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-1.png" title="B-1" model="b-1"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-1-2f.png" title="B-1-2f" model="b-1-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-10.png" title="B-10" model="b-10"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-10-2f.png" title="B-10-2f" model="b-10-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-11.png" title="B-11" model="b-11"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-11-2f.png" title="B-11-2f" model="b-11-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-12.png" title="B-12" model="b-12"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-12-2f.png" title="B-12-2f" model="b-12-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-13.png" title="B-13" model="b-13"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-2.png" title="B-2" model="b-2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-2-2f.png" title="B-2-2f" model="b-2-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-3.png" title="B-3" model="b-3"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-4.png" title="B-4" model="b-4"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-42.png" title="B-42" model="b-42"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-42-2f.png" title="B-42-2f" model="b-42-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-51.png" title="B-51" model="b-51"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-51-2f.png" title="B-51-2f" model="b-51-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-52.png" title="B-52" model="b-52"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-52-2f.png" title="B-52-2f" model="b-52-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-8.png" title="B-8" model="b-8"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/b-8-2f.png" title="B-8-2f" model="b-8-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/classica-440.png" title="Classica 440" model="classica-440"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/classica-874.png" title="Classica 874" model="classica-874"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/classica-887.png" title="Classica 887" model="classica-887"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/cub-12.png" title="Cub 12" model="cub-12"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/cub-15.png" title="Cub 15" model="cub-15"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/cub-18.png" title="Cub 18" model="cub-18"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/cub-21.png" title="Cub 21" model="cub-21"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/cub-9.png" title="Cub 9" model="cub-9"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/element.png" title="Element" model="element"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/eretik.png" title="Eretik" model="eretik"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/fb-5.png" title="FB-5" model="fb-5"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/festival.png" title="Festival" model="festival"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/fragment.png" title="Fragment" model="fragment"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/gotica.png" title="Gotica" model="gotica"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/guardian.png" title="Guardian" model="guardian"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/inok.png" title="Inok" model="inok"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/k-1.png" title="K-1" model="k-1"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/k-2.png" title="K-2" model="k-2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/labirint.png" title="Labirint" model="labirint"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52e.png" title="Legion 52e" model="legion-52e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52e-2f.png" title="Legion 52e-2f" model="legion-52e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52h.png" title="Legion 52h" model="legion-52h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52h-2f.png" title="Legion 52h-2f" model="legion-52h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52i.png" title="Legion 52i" model="legion-52i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/legion-52i-2f.png" title="Legion 52i-2f" model="legion-52i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/london.png" title="London" model="london"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/london-m.png" title="London M" model="london-m"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-10.png" title="Milan 10" model="milan-10"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-11.png" title="Milan 11" model="milan-11"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-11-2f.png" title="Milan 11-2f" model="milan-11-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-12.png" title="Milan 12" model="milan-12"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-12-2f.png" title="Milan 12-2f" model="milan-12-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/milan-9.png" title="Milan 9" model="milan-9"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-54.png" title="Monarch 54" model="monarch-54"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55e.png" title="Monarch 55e" model="monarch-55e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55e-2f.png" title="Monarch 55e-2f" model="monarch-55e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55h.png" title="Monarch 55h" model="monarch-55h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55h-2f.png" title="Monarch 55h-2f" model="monarch-55h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55i.png" title="Monarch 55i" model="monarch-55i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55i-2f.png" title="Monarch 55i-2f" model="monarch-55i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55k.png" title="Monarch 55k" model="monarch-55k"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-55k-2f.png" title="Monarch 55k-2f" model="monarch-55k-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57e.png" title="Monarch 57e" model="monarch-57e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57e-2f.png" title="Monarch 57e-2f" model="monarch-57e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57h.png" title="Monarch 57h" model="monarch-57h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57h-2f.png" title="Monarch 57h-2f" model="monarch-57h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57i.png" title="Monarch 57i" model="monarch-57i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/monarch-57i-2f.png" title="Monarch 57i-2f" model="monarch-57i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-1.png" title="P-1" model="p-1"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-1-2f.png" title="P-1-2f" model="p-1-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-2.png" title="P-2" model="p-2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-2-2f.png" title="P-2-2f" model="p-2-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-3.png" title="P-3" model="p-3"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/p-4.png" title="P-4" model="p-4"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/paris.png" title="Paris" model="paris"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/pioneer-72e.png" title="Pioneer 72e" model="pioneer-72e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/pioneer-72e-2f.png" title="Pioneer 72e-2f" model="pioneer-72e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/pioneer-72h.png" title="Pioneer 72h" model="pioneer-72h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/pioneer-72h-2f.png" title="Pioneer 72h-2f" model="pioneer-72h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/pioneer-72i-2f.png" title="Pioneer 72i-2f" model="pioneer-72i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sektor.png" title="Sektor" model="sektor"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sfinx71.png" title="Sfinx 71" model="sfinx71"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sfinx72.png" title="Sfinx72" model="sfinx72"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sfinx73.png" title="Sfinx73" model="sfinx73"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sfinx74.png" title="Sfinx74" model="sfinx74"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/sfinx75.png" title="Sfinx75" model="sfinx75"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/slalom1.png" title="Slalom 1" model="slalom1"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/slalom2.png" title="Slalom 2" model="slalom2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/slalom3.png" title="Slalom 3" model="slalom3"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/slalom4.png" title="Slalom 4" model="slalom4"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/slalom5.png" title="Slalom 5" model="slalom5"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/socrat.png" title="Socrat" model="socrat"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/step1.png" title="Step 1" model="step1"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/step2.png" title="Step 2" model="step2"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/tritonc.png" title="Triton C" model="tritonc"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/tritonl.png" title="Triton L" model="tritonl"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/tritonp.png" title="Triton P" model="tritonp"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92e.png" title="Triumf 92e" model="triumf-92e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92e-2f.png" title="Triumf 92e-2f" model="triumf-92e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92h.png" title="Triumf 92h" model="triumf-92h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92h-2f.png" title="Triumf 92h-2f" model="triumf-92h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92i.png" title="Triumf 92i" model="triumf-92i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-92i-2f.png" title="Triumf 92i-2f" model="triumf-92i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93e.png" title="Triumf 93e" model="triumf-93e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93e-2f.png" title="Triumf 93e-2f" model="triumf-93e-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93h.png" title="Triumf 93h" model="triumf-93h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93h-2f.png" title="Triumf 93h-2f" model="triumf-93h-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93i.png" title="Triumf 93i" model="triumf-93i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-93i-2f.png" title="Triumf 93i-2f" model="triumf-93i-2f"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-94e.png" title="Triumf 94e" model="triumf-94e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-94h.png" title="Triumf 94h" model="triumf-94h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-94i.png" title="Triumf 94i" model="triumf-94i"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-95e.png" title="Triumf 95e" model="triumf-95e"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-95h.png" title="Triumf 95h" model="triumf-95h"><img class="gallery_element gallery_out_otd_col" src="lego/small/frez/triumf-95i.png" title="Triumf 95i" model="triumf-95i">					</div>
+
+					<div id="in_otd_window" style="">
+						<h2>Выберите ПВХ для внутренней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_10.jpg" title="10" model="mdf_pvh_10"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_12.jpg" title="12" model="mdf_pvh_12"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_13.jpg" title="13" model="mdf_pvh_13"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_14.jpg" title="14" model="mdf_pvh_14"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_15.jpg" title="15" model="mdf_pvh_15"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_16.jpg" title="16" model="mdf_pvh_16"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_17.jpg" title="17" model="mdf_pvh_17"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_18.jpg" title="18" model="mdf_pvh_18"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_19.jpg" title="19 (глянец)" model="mdf_pvh_19"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_2.jpg" title="2" model="mdf_pvh_2"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_20.jpg" title="20" model="mdf_pvh_20"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_21.jpg" title="21" model="mdf_pvh_21"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_22.jpg" title="22" model="mdf_pvh_22"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_23.jpg" title="23" model="mdf_pvh_23"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_24.jpg" title="24" model="mdf_pvh_24"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_25.jpg" title="25" model="mdf_pvh_25"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_26.jpg" title="26" model="mdf_pvh_26"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_27.jpg" title="27" model="mdf_pvh_27"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_28.jpg" title="28" model="mdf_pvh_28"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_29.jpg" title="29" model="mdf_pvh_29"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_3.jpg" title="3" model="mdf_pvh_3"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_30.jpg" title="30" model="mdf_pvh_30"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_31.jpg" title="31" model="mdf_pvh_31"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_32.jpg" title="32" model="mdf_pvh_32"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_33.jpg" title="33" model="mdf_pvh_33"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_34.jpg" title="34" model="mdf_pvh_34"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_35.jpg" title="35" model="mdf_pvh_35"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_36.jpg" title="36" model="mdf_pvh_36"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_37.jpg" title="37" model="mdf_pvh_37"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_38.jpg" title="38 (глянец)" model="mdf_pvh_38"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_39.jpg" title="39" model="mdf_pvh_39"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_4.jpg" title="4" model="mdf_pvh_4"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_40.jpg" title="40" model="mdf_pvh_40"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_41.jpg" title="41" model="mdf_pvh_41"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_42.jpg" title="42" model="mdf_pvh_42"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_43.jpg" title="43" model="mdf_pvh_43"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_5.jpg" title="5" model="mdf_pvh_5"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_7.jpg" title="7" model="mdf_pvh_7"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_9.jpg" title="9" model="mdf_pvh_9"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_venge.jpg" title="Венге" model="mdf_pvh_venge"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_venge_2.jpg" title="Венге 2" model="mdf_pvh_venge_2"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_cedar.jpg" title="Кедр (глянец)" model="mdf_pvh_cedar"><img class="gallery_element gallery_in_otd" src="lego/small/otd/mdf_pvh_root.jpg" title="Корень (глянец)" model="mdf_pvh_root">					</div>
+
+					<div id="in_otd_hdf_window" style="display: none;">
+						<h2>Выберите ХДФ покрытие для внутренней отделки:</h2>
+						<img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_buk.jpg" title="Бук" model="hdf_buk"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_venge_white.jpg" title="Венге Светлый" model="hdf_venge_white"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_venge_black.jpg" title="Венге Тёмный" model="hdf_venge_black"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_cherry.jpg" title="Вишня" model="hdf_cherry"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_oak_arden.jpg" title="Дуб Арден" model="hdf_oak_arden"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_nut_italy.jpg" title="Итальянский Орех" model="hdf_nut_italy"><img class="gallery_element gallery_in_otd_hdf" src="lego/small/otd/hdf_nut_milan.jpg" title="Миланский Орех" model="hdf_nut_milan">					</div>
+
+					<div id="in_otd_por_window" style="">
+						<h2>Выберите цвет порошкового напыления для внутренней отделки:</h2>
+						<img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_bronze.jpg" title="Бронза" model="por_bronze"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_green.jpg" title="Зелёный" model="por_green"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_croc_brown.jpg" title="Крокодил Коричневый" model="por_croc_brown"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_croc_black.jpg" title="Крокодил Чёрный" model="por_croc_black"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_cuprum.jpg" title="Медь" model="por_cuprum"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_silver.jpg" title="Серебро" model="por_silver"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_blue.jpg" title="Синий" model="por_blue"><img class="gallery_element gallery_in_otd_por" src="lego/small/otd/por_violet.jpg" title="Фиолетовый" model="por_violet">					</div>
+
+					<div id="in_otd_mol_window" style="">
+						<h2>Выберите цвет молотковой эмали для внутренней отделки:</h2>
+						<img class="gallery_element gallery_in_otd_mol" src="lego/small/otd/mol_grey.jpg" title="Молотковая Серая" model="mol_grey"><img class="gallery_element gallery_in_otd_mol" src="lego/small/otd/mol_shagr_brown.jpg" title="Шагрень Коричневая" model="mol_shagr_brown"><img class="gallery_element gallery_in_otd_mol" src="lego/small/otd/mol_shagr_black.jpg" title="Шагрень Чёрная" model="mol_shagr_black">					</div>
+
+					<div id="in_otd_shpon_window" style="">
+						<h2>Выберите шпон для внутренней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_a218.jpg" title="А 218" model="mdf_shpon_a218"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_a-n-t.jpg" title="А Н Т" model="mdf_shpon_a-n-t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_bukbav.jpg" title="БУК.БАВ." model="mdf_shpon_bukbav"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_bukfl.jpg" title="БУК.Ф.Л." model="mdf_shpon_bukfl"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_vengefl.jpg" title="ВЕНГЕ.Ф.Л." model="mdf_shpon_vengefl"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d211n.jpg" title="Д 211 Н" model="mdf_shpon_d211n"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d211c.jpg" title="Д 211 С" model="mdf_shpon_d211c"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d211cc.jpg" title="Д 211 СС" model="mdf_shpon_d211cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d211t.jpg" title="Д 211 Т" model="mdf_shpon_d211t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d235n.jpg" title="Д 235 Н" model="mdf_shpon_d235n"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d235c.jpg" title="Д 235 С" model="mdf_shpon_d235c"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d235cc.jpg" title="Д 235 СС" model="mdf_shpon_d235cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d235t.jpg" title="Д 235 Т" model="mdf_shpon_d235t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d236n.jpg" title="Д 236 Н" model="mdf_shpon_d236n"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d236c.jpg" title="Д 236 С" model="mdf_shpon_d236c"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d236cc.jpg" title="Д 236 СС" model="mdf_shpon_d236cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d236t.jpg" title="Д 236 Т" model="mdf_shpon_d236t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d-b.jpg" title="Д Б" model="mdf_shpon_d-b"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d-e-f-l.jpg" title="Д Е Ф Л" model="mdf_shpon_d-e-f-l"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d-z-p.jpg" title="Д З П" model="mdf_shpon_d-z-p"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_d-n-t.jpg" title="Д Н Т" model="mdf_shpon_d-n-t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_dvenge.jpg" title="Д.ВЕНГЕ." model="mdf_shpon_dvenge"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_oakfl.jpg" title="ДУБ.Ф.Л." model="mdf_shpon_oakfl"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_zebrano.jpg" title="ЗЕБРАНО" model="mdf_shpon_zebrano"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k211n.jpg" title="К 211 Н" model="mdf_shpon_k211n"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k211c.jpg" title="К 211 С" model="mdf_shpon_k211c"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k211cc.jpg" title="К 211 СС" model="mdf_shpon_k211cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k235cc.jpg" title="К 235 СС" model="mdf_shpon_k235cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k236c.jpg" title="К 236 С" model="mdf_shpon_k236c"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k236cc.jpg" title="К 236 СС" model="mdf_shpon_k236cc"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k236t.jpg" title="К 236 Т" model="mdf_shpon_k236t"><img class="gallery_element gallery_in_otd_shpon" src="lego/small/otd/mdf_shpon_k-ch.jpg" title="К Ч" model="mdf_shpon_k-ch">					</div>
+
+					<div id="in_otd_plastic_window" style="">
+						<h2>Выберите пластик для внутренней МДФ-отделки:</h2>
+						<img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_3240.jpg" title="3240" model="mdf_plastic_3240"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_3801.jpg" title="3801" model="mdf_plastic_3801"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_3842.jpg" title="3842" model="mdf_plastic_3842"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_3844.jpg" title="3844" model="mdf_plastic_3844"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_524.jpg" title="524" model="mdf_plastic_524"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_534.jpg" title="534" model="mdf_plastic_534"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_568.jpg" title="568" model="mdf_plastic_568"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_727.jpg" title="727" model="mdf_plastic_727"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_806.jpg" title="806" model="mdf_plastic_806"><img class="gallery_element gallery_in_otd_plastic" src="lego/small/otd/mdf_plastic_836.jpg" title="836" model="mdf_plastic_836">					</div>
+
+					<div id="in_frez_window" style="">
+						<h2>Выберите рисунок фрезеровки внутренней панели:</h2>
+						<img class="gallery_element gallery_in_otd_col" src="lego/small/frez/14-2.png" title="14-2" model="14-2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/14-4.png" title="14-4" model="14-4"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-2.png" title="B-2" model="b-2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-2-2f.png" title="B-2-2f" model="b-2-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-3.png" title="B-3" model="b-3"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-4.png" title="B-4" model="b-4"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-11.png" title="B-11" model="b-11"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-11-2f.png" title="B-11-2f" model="b-11-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-12.png" title="B-12" model="b-12"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-12-2f.png" title="B-12-2f" model="b-12-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-13.png" title="B-13" model="b-13"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/element.png" title="Element" model="element"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/fb-5.png" title="FB-5" model="fb-5"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/festival.png" title="Festival" model="festival"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/fragment.png" title="Fragment" model="fragment"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/gotica.png" title="Gotica" model="gotica"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/guardian.png" title="Guardian" model="guardian"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/k-1.png" title="K-1" model="k-1"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/k-2.png" title="K-2" model="k-2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sfinx71.png" title="Sfinx 71" model="sfinx71"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sfinx72.png" title="Sfinx72" model="sfinx72"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/slalom1.png" title="Slalom 1" model="slalom1"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/slalom2.png" title="Slalom 2" model="slalom2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/slalom3.png" title="Slalom 3" model="slalom3"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/slalom4.png" title="Slalom 4" model="slalom4"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/slalom5.png" title="Slalom 5" model="slalom5"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/socrat.png" title="Socrat" model="socrat"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/step1.png" title="Step 1" model="step1"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/step2.png" title="Step 2" model="step2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/tritonc.png" title="Triton C" model="tritonc"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/tritonl.png" title="Triton L" model="tritonl"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/tritonp.png" title="Triton P" model="tritonp"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55k.png" title="Monarch 55k" model="monarch-55k"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-1.png" title="P-1" model="p-1"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-2.png" title="P-2" model="p-2"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-3.png" title="P-3" model="p-3"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-4.png" title="P-4" model="p-4"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-1.png" title="B-1" model="b-1"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-1-2f.png" title="B-1-2f" model="b-1-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55k-2f.png" title="Monarch 55k-2f" model="monarch-55k-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55h-2f.png" title="Monarch 55h-2f" model="monarch-55h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-54.png" title="Monarch 54" model="monarch-54"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55i-2f.png" title="Monarch 55i-2f" model="monarch-55i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55e-2f.png" title="Monarch 55e-2f" model="monarch-55e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-2-2f.png" title="P-2-2f" model="p-2-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/p-1-2f.png" title="P-1-2f" model="p-1-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52h-2f.png" title="Legion 52h-2f" model="legion-52h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52h.png" title="Legion 52h" model="legion-52h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52i-2f.png" title="Legion 52i-2f" model="legion-52i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52i.png" title="Legion 52i" model="legion-52i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52e-2f.png" title="Legion 52e-2f" model="legion-52e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/legion-52e.png" title="Legion 52e" model="legion-52e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/pioneer-72h.png" title="Pioneer 72h" model="pioneer-72h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/pioneer-72h-2f.png" title="Pioneer 72h-2f" model="pioneer-72h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/pioneer-72i-2f.png" title="Pioneer 72i-2f" model="pioneer-72i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/pioneer-72e-2f.png" title="Pioneer 72e-2f" model="pioneer-72e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/pioneer-72e.png" title="Pioneer 72e" model="pioneer-72e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-51-2f.png" title="B-51-2f" model="b-51-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-51.png" title="B-51" model="b-51"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-42-2f.png" title="B-42-2f" model="b-42-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-42.png" title="B-42" model="b-42"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-52-2f.png" title="B-52-2f" model="b-52-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-52.png" title="B-52" model="b-52"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/inok.png" title="Inok" model="inok"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-12-2f.png" title="Milan 12-2f" model="milan-12-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-12.png" title="Milan 12" model="milan-12"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/eretik.png" title="Eretik" model="eretik"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-11-2f.png" title="Milan 11-2f" model="milan-11-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-11.png" title="Milan 11" model="milan-11"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57i-2f.png" title="Monarch 57i-2f" model="monarch-57i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55i.png" title="Monarch 55i" model="monarch-55i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57i.png" title="Monarch 57i" model="monarch-57i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57e-2f.png" title="Monarch 57e-2f" model="monarch-57e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57e.png" title="Monarch 57e" model="monarch-57e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55e.png" title="Monarch 55e" model="monarch-55e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57h-2f.png" title="Monarch 57h-2f" model="monarch-57h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-55h.png" title="Monarch 55h" model="monarch-55h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/monarch-57h.png" title="Monarch 57h" model="monarch-57h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-95i.png" title="Triumf 95i" model="triumf-95i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-95h.png" title="Triumf 95h" model="triumf-95h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92i.png" title="Triumf 92i" model="triumf-92i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93e-2f.png" title="Triumf 93e-2f" model="triumf-93e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93i-2f.png" title="Triumf 93i-2f" model="triumf-93i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93i.png" title="Triumf 93i" model="triumf-93i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93e.png" title="Triumf 93e" model="triumf-93e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93h-2f.png" title="Triumf 93h-2f" model="triumf-93h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-93h.png" title="Triumf 93h" model="triumf-93h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-94h.png" title="Triumf 94h" model="triumf-94h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92h-2f.png" title="Triumf 92h-2f" model="triumf-92h-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-95e.png" title="Triumf 95e" model="triumf-95e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-94e.png" title="Triumf 94e" model="triumf-94e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-94i.png" title="Triumf 94i" model="triumf-94i"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92h.png" title="Triumf 92h" model="triumf-92h"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92i-2f.png" title="Triumf 92i-2f" model="triumf-92i-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92e-2f.png" title="Triumf 92e-2f" model="triumf-92e-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/triumf-92e.png" title="Triumf 92e" model="triumf-92e"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sfinx73.png" title="Sfinx73" model="sfinx73"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sfinx74.png" title="Sfinx74" model="sfinx74"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sfinx75.png" title="Sfinx75" model="sfinx75"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/sektor.png" title="Sektor" model="sektor"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/paris.png" title="Paris" model="paris"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-9.png" title="Milan 9" model="milan-9"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/milan-10.png" title="Milan 10" model="milan-10"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/london.png" title="London" model="london"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/london-m.png" title="London M" model="london-m"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/labirint.png" title="Labirint" model="labirint"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/cub-9.png" title="Cub 9" model="cub-9"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/cub-21.png" title="Cub 21" model="cub-21"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/cub-12.png" title="Cub 12" model="cub-12"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/cub-15.png" title="Cub 15" model="cub-15"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/cub-18.png" title="Cub 18" model="cub-18"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/classica-874.png" title="Classica 874" model="classica-874"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/classica-887.png" title="Classica 887" model="classica-887"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/classica-440.png" title="Classica 440" model="classica-440"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-10-2f.png" title="B-10-2f" model="b-10-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-10.png" title="B-10" model="b-10"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-8-2f.png" title="B-8-2f" model="b-8-2f"><img class="gallery_element gallery_in_otd_col" src="lego/small/frez/b-8.png" title="B-8" model="b-8">					</div>
+
+					<div id="handles_window" style="">
+						<h2>Выберите ручку:</h2>
+						<img class="gallery_element gallery_handles" src="lego/small/handles/ala.png" model="ala"><img class="gallery_element gallery_handles" src="lego/small/handles/bocciolo.png" model="bocciolo"><img class="gallery_element gallery_handles" src="lego/small/handles/cannello.png" model="cannello"><img class="gallery_element gallery_handles" src="lego/small/handles/cobra.png" model="cobra"><img class="gallery_element gallery_handles" src="lego/small/handles/onda.png" model="onda"><img class="gallery_element gallery_handles" src="lego/small/handles/regola.png" model="regola"><img class="gallery_element gallery_handles" src="lego/small/handles/unione1.png" model="unione1"><img class="gallery_element gallery_handles" src="lego/small/handles/vetta.png" model="vetta">					</div>
+
+					<div id="locks_window" style="display: none;">
+						<h2>Выберите замок:</h2>
+						<img class="gallery_element gallery_locks" src="lego/small/locks/Mottura.png" model="Mottura"><img class="gallery_element gallery_locks" src="lego/small/locks/elbor.png" model="elbor"><img class="gallery_element gallery_locks" src="lego/small/locks/elbor1.png" model="elbor1"><img class="gallery_element gallery_locks" src="lego/small/locks/elborgranit.png" model="elborgranit"><img class="gallery_element gallery_locks" src="lego/small/locks/gardian3011.png" model="gardian3011"><img class="gallery_element gallery_locks" src="lego/small/locks/gardiancil.png" model="gardiancil"><img class="gallery_element gallery_locks" src="lego/small/locks/guardian.png" model="guardian"><img class="gallery_element gallery_locks" src="lego/small/locks/kale252r.png" model="kale252r"><img class="gallery_element gallery_locks" src="lego/small/locks/mett.png" model="mett"><img class="gallery_element gallery_locks" src="lego/small/locks/mettemtyag.png" model="mettemtyag">					</div>
+
+					<div id="lich_window" style="">
+						<h2>Выберите личинку:</h2>
+						<img class="gallery_element gallery_lich" src="lego/small/lich/Mottura.png" model="mottura"><img class="gallery_element gallery_lich" src="lego/small/lich/cisa.png" model="cisa"><img class="gallery_element gallery_lich" src="lego/small/lich/apeks.png" model="apeks"><img class="gallery_element gallery_lich" src="lego/small/lich/kale1.png" model="kale1"><img class="gallery_element gallery_lich" src="lego/small/lich/mottura1.png" model="mottura1"><img class="gallery_element gallery_lich" src="lego/small/lich/msm.png" model="msm">					</div>
+
+					<div id="nakl_window" style="">
+						<h2>Выберите броненакладку:</h2>
+						<img class="gallery_element gallery_nakl" src="lego/small/nakl/mottura_stal.png" model="mottura_stal"><img class="gallery_element gallery_nakl" src="lego/small/nakl/ritko.png" model="ritko"><img class="gallery_element gallery_nakl" src="lego/small/nakl/cisa.png" model="cisa"><img class="gallery_element gallery_nakl" src="lego/small/nakl/bulava.png" model="bulava"><img class="gallery_element gallery_nakl" src="lego/small/nakl/kale.png" model="kale">					</div>
+					<div id="bottom_space"></div>
+				</div>
+			</div>
+</div>
+
+<div id="navi">
+	<div class="widget-top"></div>
+	<div class="widget-middle" id="money">
+		Курс валют:<br>
+		$ = 59.5436<br>€ = 69.6779<br>	</div>
+	<div class="widget-bottom"></div>
+
+	<div class="widget-top"></div>
+	<div class="widget-middle">
+		<span class="order">
+			<a href="contacts.html">
+				Наша Выставка:<br>
+				г.&nbsp;Смоленск, ул.<br>
+				Кирова, д.&nbsp;23
+			</a>
+		</span><br><br>
+
+		Работает по будням<br>
+		с 10:00 до 19:00<br>
+		в субботу<br>
+		с 10:00 до 18:00<br>
+		и в воскресенье:<br>
+		с 10:00 до 16:00<br><br>
+
+		<span class="consult">
+			Консультант досупен<br>
+			на месте по будням:<br>
+			с 10:00 до 17:00<br>
+			и в субботу:<br>
+			с 10:00 до 15:00
+		</span><br><br>
+
+		Или по телефонам:<br>
+		+7 (4812) 40–19–28<br>
+		+7 (920) 304–48–07<br><br>
+
+		E-mail:<br>
+		<a href="mailto:nicky_man@rambler.ru" class="info">nicky_man@rambler.ru</a>
+	</div>
+	<div class="widget-bottom"></div>
+</div>
+
+<div id="footer">© Компания «Ваш Выбор»™ является зарегистрированой торговой маркой (2006–2017).</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.menu.js"></script>
+<script type="text/javascript" src="js/shuffle.js"></script>
+<script type="text/javascript" src="js/jquery.slider.tooltip.js"></script>
+<script type="text/javascript" src="js/slimbox.js"></script>
+<script type="text/javascript" src="js/page.constructor.js"></script>
+</body>
+</html>
