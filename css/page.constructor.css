@@ -1,0 +1,571 @@
+h2{
+margin:7px auto;
+font:bold 24px Vrinda,Verdana,Arial;
+text-align:center}
+
+h4{
+margin:0;
+text-decoration:underline;
+font:bold 18px Vrinda,Verdana,Arial;
+text-align:center;}
+
+h5{
+margin:7px 0 0 0;
+padding:0;
+text-decoration:underline;
+font:bold 18px Vrinda,Verdana,Arial;
+text-align:center;}
+
+input{
+font:14px Vrinda,Verdana,Arial;}
+
+select{
+text-align:center;
+font:14px Vrinda,Verdana,Arial;
+width:270px;}
+
+.type_unit{
+width:190px;
+height:205px;
+float:left;
+margin:5px;
+background-repeat:no-repeat;
+cursor:pointer}
+
+#type_arrows{
+width:600px;
+height:111px;
+margin:0 auto;
+background:url(../lego/basic/chyd.png) no-repeat}
+
+.type_radio,#out_frez_show,#in_frez_show{display:none}
+#type_1{background-image:url(../lego/basic/type_1.png)}
+#type_2{background-image:url(../lego/basic/type_2.png)}
+#type_3{background-image:url(../lego/basic/type_3.png)}
+#type_4{background-image:url(../lego/basic/type_4.png)}
+/*Для hover'a можно сделать так, чтобы картинки были сначала не ч/б, а синие, например. А при наведении становились зелёными*/
+
+.clear{clear:both}
+
+#changeprice,#change_type{
+text-align:center;
+font:bold 28px "Courier New",Courier,Arial;
+-moz-border-radius:10px;
+-khtml-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px}
+
+#changeprice{
+display:none;
+background-color:#000;
+color:#fff;
+border:2px dotted white;
+padding:14px;
+position:fixed;
+top:10px;
+left:50px;
+z-index:998}
+
+#change_type{
+padding:7px;
+margin:0 auto;
+width:600px;
+color:#666;
+border:2px dotted #fff;
+font-size:21px;
+letter-spacing:7px;
+cursor:pointer}
+
+#change_type:hover{
+background-color:green;
+color:#fff;
+border:2px dotted white}
+
+#result{
+float:left;
+margin:7px 21px;
+padding:0;
+width:215px;
+height:650px}
+
+#img{
+cursor:pointer;
+margin:0;
+padding:0;
+width:215px;
+height:550px;
+position:relative;
+background:#c1ddf5 url(../lego/basic/bkgrd.jpg)}/*Задник со стеной (кирпичной),z-index:0*/
+
+#img img,#img div{position:absolute}
+
+#order{/*Результат рассчётов*/
+text-align:center;
+margin:0;
+padding:0;
+width:215px;
+height:100px;
+background:#fff url(../lego/basic/bkgrd2.jpg)}
+
+#summ{
+font:bold 16px Verdana, Arial, Helvetica, sans-serif;
+line-height:2em !important}
+
+#summ span{
+text-shadow:#000 1px 1px 0;
+font-size:24px;
+color:#7100da;
+font-style:italic}
+
+#price_sign{
+width:157px;
+height:25px;
+margin:0 auto;
+background:transparent url(../lego/basic/price.png) no-repeat center top;
+text-indent:-1000em;
+letter-spacing:4px}
+
+#order_button{
+width:119px;
+height:25px;
+margin:0;
+padding:0;
+border:0;
+background:transparent url(../lego/basic/order.png) no-repeat center top;
+text-indent:-1000em;
+cursor:pointer}
+
+#order_button:active{position:relative;top:1px;left:1px}
+
+#pokr,#nali,#nalil,#inner_home{
+-moz-border-radius:5px 5px 0 0;
+-khtml-border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+border-radius:5px 5px 0 0}
+
+#pokr{
+width:201px;
+height:515px;
+top:21px;
+left:7px;
+background:url(../lego/big/otd/por_blue.jpg) no-repeat;
+-webkit-box-shadow:#666 3px 3px 5px;
+-moz-box-shadow:#666 3px 3px 5px;
+box-shadow:#666 0 -1px 5px;
+z-index:1;}
+
+#frez{
+display:none;
+width:154px;
+height:496px;
+top:38px;
+left:30px;
+background:url(../lego/big/frez/14-2.png) no-repeat;
+z-index:2}
+
+#nali{
+width:154px;
+height:496px;
+top:37px;
+left:27px;
+border:3px solid #000;
+border-bottom:none;
+z-index:3}
+
+#nalil{
+width:154px;
+height:496px;
+top:39px;
+left:29px;
+border:1px solid #444;
+-webkit-box-shadow:#444 0 -1px 3px;
+-moz-box-shadow:#444 0 -1px 3px;
+box-shadow:#444 0 -1px 3px;
+border-bottom:none;
+z-index:4}
+
+#nalifrez{
+display:none;
+top:21px;
+left:7px;
+width:201px;
+height:515px;
+background:url(../lego/basic/nalifrez.png) no-repeat;
+z-index:5}
+
+#thrd{
+width:201px;
+height:515px;
+top:21px;
+left:7px;
+-moz-border-radius:5px 5px 0 0;
+-khtml-border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+border-radius:5px 5px 0 0;
+background:url(../lego/basic/3d.png) no-repeat;
+z-index:6}
+
+#nalinone{
+display:none;
+width:215px;
+height:550px;
+background:url(../lego/basic/bkgrd3.png) no-repeat;
+z-index:7}
+
+#window{/*Сузить или расширить на 1 пиксель*/
+display:none;
+top:90px;
+left:67px;
+background:url(../lego/basic/window.jpg) no-repeat;
+z-index:8}
+
+#eye{
+width:15px;
+height:15px;
+top:154px;
+left:100px;
+background:url(../lego/basic/eye.png) no-repeat;
+z-index:9}
+
+#nakll{
+width:15px;
+height:20px;
+top:300px;
+left:33px;
+background:url(../lego/big/nakl/mottura_stal.png) no-repeat;
+z-index:10}
+
+#handle{
+width:44px;
+height:20px;
+top:278px;
+left:33px;
+-o-transform:rotate(350deg);
+-ms-transform:rotate(350deg);
+-moz-transform:rotate(350deg);
+-webkit-transform:rotate(350deg);
+background:url(../lego/big/handles/cannello.png) no-repeat;
+z-index:11}
+
+#inner_side{
+display:none;
+width:154px;
+height:492px;
+top:38px;
+left:187px;
+border:3px solid #000;
+-moz-border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+background:url(../lego/big/otd/hdf_buk.jpg) no-repeat;
+z-index:12}
+
+#inner_frez{
+display:none;
+width:154px;
+height:492px;
+top:-1px;
+left:-1px;
+border:1px solid #444;
+-moz-border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+background:url(../lego/big/frez/14-2.png) no-repeat;
+z-index:1}
+
+#inner_home{
+width:154px;
+height:496px;
+top:-2px;
+left:-160px;
+background:url(../lego/basic/inner_home.jpg) no-repeat;
+z-index:2}
+
+#inner_thrd{
+width:154px;
+height:492px;
+-moz-border-radius:2px;
+-khtml-border-radius:2px;
+-webkit-border-radius:2px;
+border-radius:2px;
+background:url(../lego/basic/inner_3d.png) no-repeat;
+z-index:2}
+
+#inner_eye{
+width:16px;
+height:14px;
+top:113px;
+left:67px;
+background:url(../lego/basic/inner_eye.png) no-repeat;
+z-index:3}
+
+#inner_handle{
+width:44px;
+height:20px;
+top:240px;
+right:2px;
+-o-transform:rotate(10deg);
+-ms-transform:rotate(10deg);
+-moz-transform:rotate(10deg);
+-webkit-transform:rotate(10deg);
+background:url(../lego/big/handles/inner/cannello.png) no-repeat;
+z-index:4}
+
+#inner_keyhole{
+width:15px;
+height:15px;
+top:261px;
+right:2px;
+background:url(../lego/basic/inner_keyhole.png) no-repeat;
+z-index:4}
+
+#butt{
+width:8px;
+height:393px;
+right:25px;
+top:93px;
+background:url(../lego/basic/butts.png) no-repeat;
+z-index:13}
+
+#bricks{
+margin-left:265px;
+width:500px}
+
+.selectionblock{
+width:400px;
+height:60px;
+padding-top:7px}
+
+.ChooseClass{
+float:left;
+width:275px}
+
+.ChooseIm{
+margin-left:300px;
+text-align:center;
+width:210px;
+height:52px;}
+
+/*.ChooseIm input{
+font-family:Vrinda,Verdana,Arial;
+width:210px;
+height:52px;}*/
+
+.ChooseIm select{
+font-family:Vrinda,Verdana,Arial;
+width:210px;
+height:52px;}
+
+.tip{
+padding:0;
+margin:1px 0 0 2px;
+text-align:center;
+position:absolute;
+background-image:url(../lego/basic/tip.jpg);
+width:18px;
+height:18px;
+border-radius:18px;
+cursor:help}
+
+.constrhr{
+margin:0;
+padding:0;
+size:1px;
+color:#b0d6f3}
+
+#addopt{font-size:21px;text-align:center}
+
+.dops{
+width:108px;
+height:108px;
+margin:7px 0 21px 43px;
+cursor:pointer;
+float:left}
+
+/*Нужно вторую полосу сместить вправо пикселей на 54*/
+#lego_zadv{margin-left:117px}
+
+.delivery{margin-left:14px}
+
+.dops input{background-repeat:no-repeat;display:none}
+
+#lego_glaz{background:url(../lego/basic/glaz.png)}
+#lego_zadv{background:url(../lego/basic/zadv.png)}
+#lego_warm{background:url(../lego/basic/warm.png)}
+#lego_demont{background:url(../lego/basic/demont.png)}
+#lego_service{background:url(../lego/basic/service.png)}
+#lego_hole{background:url(../lego/basic/hole.png)}
+#lego_zerkalo{background:url(../lego/basic/zerkalo.png)}
+#lego_dovod{background:url(../lego/basic/dovod.png)}
+#lego_polim{background:url(../lego/basic/polim.png)}
+
+#hide_deliv,.hide_fardeliv{display:none}
+
+#another_order_button{
+margin:7px auto;
+text-align:center}
+
+#slider-range{margin:7px auto}
+
+#lego_subtext{margin:14px 0 0 0}
+
+.thebutton{/*Стили для модального окна*/
+width:200px;
+height:52px;
+margin:0;
+padding:0;
+cursor:pointer;
+-moz-border-radius:10px;
+-khtml-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-webkit-box-shadow:#666 3px 3px 5px;
+-moz-box-shadow:#666 3px 3px 5px;
+box-shadow:#666 0 0 10px}
+
+#out_otd_button{background:url(../lego/medium/otd/mdf_pvh_2.jpg) no-repeat}
+#out_otd_por_button{background:url(../lego/medium/otd/por_blue.jpg) no-repeat}
+#out_otd_mol_button{background:url(../lego/medium/otd/mol_grey.jpg) no-repeat}
+#out_otd_shpon_button{background:url(../lego/medium/otd/mdf_shpon_a218.jpg) no-repeat}
+#out_otd_plastic_button{background:url(../lego/medium/otd/mdf_plastic_524.jpg) no-repeat}
+#out_frez_button{background:url(../lego/medium/frez/14-2.jpg) no-repeat}
+#in_otd_button{background:url(../lego/medium/otd/mdf_pvh_2.jpg) no-repeat}
+#in_otd_hdf_button{background:url(../lego/medium/otd/hdf_buk.jpg) no-repeat}
+#in_otd_por_button{background:url(../lego/medium/otd/por_blue.jpg) no-repeat}
+#in_otd_mol_button{background:url(../lego/medium/otd/mol_grey.jpg) no-repeat}
+#in_otd_shpon_button{background:url(../lego/medium/otd/mdf_shpon_a218.jpg) no-repeat}
+#in_otd_plastic_button{background:url(../lego/medium/otd/mdf_plastic_524.jpg) no-repeat}
+#in_frez_button{background:url(../lego/medium/frez/14-2.jpg) no-repeat}
+#handles_button{background:url(../lego/small/handles/cannello.png) no-repeat}
+#locks_button{background:url(../lego/small/locks/gardian3011.png) no-repeat}
+#locks2_button{background:url(../lego/small/locks/elbor.png) no-repeat}
+#lich_button{background:url(../lego/small/lich/apeks.png) no-repeat}
+#nakl_button{background:url(../lego/small/nakl/bulava.png) no-repeat}
+#select_window,#out_otd_window,#out_otd_por_window,#out_otd_mol_window,#out_otd_shpon_window,#out_otd_plastic_window,#out_frez_window,#in_otd_window,#in_otd_hdf_window,#in_otd_por_window,#in_otd_mol_window,#in_otd_shpon_window,#in_otd_plastic_window,#in_frez_window,#handles_window,#locks_window,#lich_window,#nakl_window,#out_otd_button,#out_otd_mol_button,#out_otd_shpon_button,#out_otd_plastic_button,#in_otd_button,#in_otd_por_button,#in_otd_mol_button,#in_otd_shpon_button,#in_otd_plastic_button{display:none}
+
+#shadow{
+z-index:999;
+background-color:#000;
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+cursor:pointer;
+opacity:0.6}
+
+#sel_gallery{
+overflow-y: scroll;
+overflow-x: hidden;
+z-index:1000;
+position:fixed;
+top:15%;
+left:15%;
+margin:auto;
+padding:0 14px;
+width:70%;
+height:70%;
+border:2px solid black;
+background-color:#ddedfa;
+-moz-border-radius:10px;
+-khtml-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-webkit-box-shadow:#000 0 0 20px;
+-moz-box-shadow:#000 0 0 20px;
+box-shadow:#000 0 0 20px;}
+
+#cross{
+position:absolute;
+top:7px;
+right:7px;
+width:16px;
+height:16px;
+cursor:pointer;
+background-image:url(../lego/basic/cross.jpg)}
+
+#cross:hover{background-image:url(../lego/basic/cross_red.jpg)}
+
+.gallery_element{
+width:100px;
+height:100px;
+float:left;
+margin:10px;
+cursor:pointer;
+-moz-border-radius:10px;
+-khtml-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-webkit-box-shadow:#666 0 0 5px;
+-moz-box-shadow:#666 0 0 5px;
+box-shadow:#666 0 0 5px;}
+
+.gallery_out_otd_col,.gallery_in_otd_col{
+width:50px;
+height:161px;
+background-color:#fff;
+border:1px solid black}
+
+.gallery_locks{
+width:300px;
+height:150px;
+background-color:#fff;
+border:1px solid black}
+
+#bottom_space{height:14px;clear:both}
+
+
+
+/*Красивые тултипы*/
+.ui-tooltip,.arrow:after{
+background:#000;
+text-align:center;
+border:2px dotted white
+}
+
+.ui-tooltip{
+padding:7px 14px;
+color:white;
+border-radius:10px;
+font-size:12px;
+box-shadow:0 0 7px black
+}
+
+.arrow{
+width:70px;
+height:16px;
+overflow:hidden;
+position:absolute;
+left:50%;
+margin-left:-35px;
+bottom:-16px
+}
+
+.arrow.top{
+top:-16px;
+bottom:auto
+}
+
+.arrow.left{left:20%}
+
+.arrow:after{
+content:"";
+position:absolute;
+left:20px;
+top:-20px;
+width:25px;
+height:25px;
+box-shadow:6px 5px 9px -9px black;
+webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+tranform:rotate(45deg)
+}
+
+.arrow.top:after{
+bottom:-20px;
+top:auto
+}

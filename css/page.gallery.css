@@ -1,0 +1,138 @@
+.booklet{
+margin-left:39px;
+-moz-box-shadow:0 0 1px #fff;
+-webkit-box-shadow:0 0 1px #fff;
+box-shadow:0 0 1px #fff;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+z-index:0
+}
+
+.booklet .b-wrap-left{
+background:#fff url(../img/left_page.jpg) no-repeat top left;
+-webkit-border-top-left-radius:10px;
+-webkit-border-bottom-left-radius:10px;
+-moz-border-radius-topleft:10px;
+-moz-border-radius-bottomleft:10px;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px
+}
+
+.booklet .b-wrap-right{
+background:#efefef url(../img/right_page.jpg) no-repeat top left;
+-webkit-border-top-right-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-moz-border-radius-topright:10px;
+-moz-border-radius-bottomright:10px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px
+}
+
+.booklet .b-counter{
+bottom:10px;
+position:absolute;
+display:block;
+width:90%;
+height:10px;
+border-top:1px solid #ddd;
+color:#222;
+text-align:center;
+font-size:12px;
+padding-top:5px;
+background:transparent;
+-moz-box-shadow:0 -1px 1px #fff;
+-webkit-box-shadow:0 -1px 1px #fff;
+box-shadow:0 -1px 1px #fff;
+opacity:0.8
+}
+
+.book_wrapper{
+padding-top:21px;
+width:800px;
+height:500px;
+position:relative;
+background:transparent url(../img/book.png) no-repeat 1px 0;
+z-index:0;
+margin:0 auto
+}
+
+.book_wrapper h4{
+color:#13386a;
+font-size:24px;
+text-align:center;
+background:transparent url(../img/line.png) no-repeat bottom left;
+padding-bottom:7px;
+position:relative;
+top:0;
+margin:7px 5px 0 15px
+}
+
+.book_wrapper p{
+text-indent:0;
+color:#555;
+font-size:21px;
+line-height:1px!important;
+margin:5px 5px 5px 15px
+}
+
+.book_wrapper p strong{color:#000}
+
+.book_wrapper a.order{
+display:block;
+height:29px;
+text-decoration:none;
+outline:none;
+font-size:16px;
+color:#555;
+clear:both;
+background:transparent url(../img/circle.png) no-repeat 50% 0;
+width:145px;
+margin:0 0 0 70px;
+padding:12px 0 0 85px
+}
+
+.book_wrapper a.order:hover{
+background-position:50% -41px;
+color:#13386a
+}
+
+.book_wrapper img{
+height:200px;
+float:left;
+border:2px solid #666;
+-moz-box-shadow:1px 1px 1px #fff;
+-webkit-box-shadow:1px 1px 1px #fff;
+box-shadow:1px 1px 1px #fff;
+margin:5px 7px 0 28px;
+cursor:zoom-in;
+padding:0
+}
+
+.loading{
+background:#fff url(../img/loading.gif) no-repeat 50% 50%;
+width:713px;
+height:444px;
+position:absolute;
+top:21px;
+left:39px;
+margin:auto;
+padding:auto;
+color:#555;
+font-size:21px;
+z-index:9999;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px
+}
+
+#tab{
+position:relative;
+top:30px;
+right:60px
+}
+
+.redprice{
+color:#FF0000;
+font-weight:900
+}
